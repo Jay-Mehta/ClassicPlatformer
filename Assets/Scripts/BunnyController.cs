@@ -13,6 +13,7 @@ public class BunnyController : MonoBehaviour {
 	private float bunnyHurtTime = -1;
 	public Text scoreText;
 	private float startTime;
+	private int jumpsLeft = 2;
 
 
 
@@ -31,9 +32,21 @@ public class BunnyController : MonoBehaviour {
 	{
 		if (bunnyHurtTime == -1) 
 		{
-			if (Input.GetButtonDown ("Jump")) 
+			if (Input.GetButtonDown ("Jump") && jumpsLeft > 0) 
 			{
-				myRigidBody.AddForce (transform.up * jumpForce);
+				
+
+				if (myRigidBody.velocity.y > 0) 
+				{
+					myRigidBody.velocity = Vector2.zero;
+					myRigidBody.AddForce (transform.up * jumpForce * 0.75f);
+				} 
+				else 
+				{
+					myRigidBody.velocity = Vector2.zero;
+					myRigidBody.AddForce (transform.up * jumpForce);
+					jumpsLeft--;
+				}
 			}
 
 			myAnim.SetFloat ("vVelocity", Mathf.Abs (myRigidBody.velocity.y));
@@ -73,6 +86,10 @@ public class BunnyController : MonoBehaviour {
 			myRigidBody.AddForce(transform.up * jumpForce);
 
 			collider.enabled = false;
+		}
+		else if (other.gameObject.tag=="Platform")
+		{
+			jumpsLeft = 2;
 		}
 	}
 }

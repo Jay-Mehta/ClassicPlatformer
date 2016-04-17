@@ -682,7 +682,84 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 451744, guid: 2b80b76c475e25e4c915bf4f9f280bba, type: 2}
   spawnRate: 0.8
-  randomDelay: 0.6
+  randomDelay: 0.25
+  spawnCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: -0.0007874016
+      value: 0.9993881
+      inSlope: -0.48468697
+      outSlope: -0.48468697
+      tangentMode: 10
+    - time: 0.0973402
+      value: 0.95182693
+      inSlope: -2.9415786
+      outSlope: -2.9415786
+      tangentMode: 10
+    - time: 0.13040504
+      value: 0.77332735
+      inSlope: -2.4936874
+      outSlope: -2.4936874
+      tangentMode: 10
+    - time: 0.19848046
+      value: 0.80131286
+      inSlope: -0.39739496
+      outSlope: -0.39739496
+      tangentMode: 10
+    - time: 0.26446223
+      value: 0.7217464
+      inSlope: -0.07759011
+      outSlope: -0.07759011
+      tangentMode: 10
+    - time: 0.32578617
+      value: 0.7861798
+      inSlope: -0.30623686
+      outSlope: -0.30623686
+      tangentMode: 10
+    - time: 0.40160662
+      value: 0.6600768
+      inSlope: -0.24432951
+      outSlope: -0.24432951
+      tangentMode: 10
+    - time: 0.4686927
+      value: 0.73887074
+      inSlope: -0.36624658
+      outSlope: -0.36624658
+      tangentMode: 10
+    - time: 0.51870364
+      value: 0.6434992
+      inSlope: 0.41632205
+      outSlope: 0.41632205
+      tangentMode: 10
+    - time: 0.56619847
+      value: 0.77361876
+      inSlope: 1.1139832
+      outSlope: 1.1139832
+      tangentMode: 10
+    - time: 0.6834679
+      value: 0.71361303
+      inSlope: 2.5930252
+      outSlope: 2.5930252
+      tangentMode: 10
+    - time: 0.701337
+      value: 0.8154263
+      inSlope: 2.2348144
+      outSlope: 2.2348144
+      tangentMode: 10
+    - time: 0.8345059
+      value: 0.65187985
+      inSlope: 0.45960253
+      outSlope: 0.45960253
+      tangentMode: 10
+    - time: 0.99633956
+      value: 0.9993881
+      inSlope: 2.1473176
+      outSlope: 2.1473176
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curveLengthInSeconds: 60
 --- !u!4 &868735018
 Transform:
   m_ObjectHideFlags: 0
