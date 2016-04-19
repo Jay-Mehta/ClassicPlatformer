@@ -40,7 +40,7 @@ public class BunnyController : MonoBehaviour {
 
 		if (bunnyHurtTime == -1) 
 		{
-			if (Input.GetButtonDown ("Jump") && jumpsLeft > 0) 
+			if ((Input.GetButtonDown ("Jump"))||(Input.GetButtonDown ("Fire1"))&& jumpsLeft > 0) 
 			{
 				
 
