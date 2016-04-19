@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67a7318f86269c146af6e45e9be33dfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeOut: 60
+  timeOut: 90
   detachChildren: 0
 --- !u!114 &11442962
 MonoBehaviour:
@@ -112,7 +112,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: timeOut
-      value: 60
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: speed
