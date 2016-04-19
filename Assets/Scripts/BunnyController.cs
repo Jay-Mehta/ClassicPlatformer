@@ -14,6 +14,9 @@ public class BunnyController : MonoBehaviour {
 	public Text scoreText;
 	private float startTime;
 	private int jumpsLeft = 2;
+	public AudioSource jumpSfx;
+	public AudioSource deathSfx;
+	public AudioSource bGMusic;
 
 
 
@@ -46,6 +49,7 @@ public class BunnyController : MonoBehaviour {
 					myRigidBody.velocity = Vector2.zero;
 					myRigidBody.AddForce (transform.up * jumpForce);
 					jumpsLeft--;
+					jumpSfx.Play ();
 				}
 			}
 
@@ -86,6 +90,10 @@ public class BunnyController : MonoBehaviour {
 			myRigidBody.AddForce(transform.up * jumpForce);
 
 			collider.enabled = false;
+
+			deathSfx.Play ();
+			bGMusic.Stop ();
+
 		}
 		else if (other.gameObject.tag=="Platform")
 		{
