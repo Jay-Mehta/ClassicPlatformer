@@ -40,7 +40,7 @@ public class BunnyController : MonoBehaviour {
 
 		if (bunnyHurtTime == -1) 
 		{
-			if ((Input.GetButtonDown ("Jump"))||(Input.GetButtonDown ("Fire1"))&& jumpsLeft > 0) 
+			if (((Input.GetButtonDown ("Jump"))||(Input.GetButtonDown ("Fire1")))&& jumpsLeft > 0) 
 			{
 				
 
@@ -53,9 +53,9 @@ public class BunnyController : MonoBehaviour {
 				{
 					myRigidBody.velocity = Vector2.zero;
 					myRigidBody.AddForce (transform.up * jumpForce);
-					jumpsLeft--;
-					jumpSfx.Play ();
 				}
+				jumpsLeft--;
+				jumpSfx.Play ();
 			}
 
 			myAnim.SetFloat ("vVelocity", Mathf.Abs (myRigidBody.velocity.y));
