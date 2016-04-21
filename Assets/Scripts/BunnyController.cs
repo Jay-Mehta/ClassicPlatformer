@@ -13,10 +13,13 @@ public class BunnyController : MonoBehaviour {
 	private int EnemyLayer;
 	private float bunnyHurtTime = -1;
 	public Text scoreText;
+	public Text highScoreText;
 	public AudioSource jumpSfx;
 	public AudioSource deathSfx;
 	public AudioSource bGMusic;
 	public float jumpForce = 500f;
+	private int score = 0;
+	[HideInInspector]public int highScore = 0;
 
 
 
@@ -27,6 +30,7 @@ public class BunnyController : MonoBehaviour {
 		myAnim = GetComponent<Animator> ();
 		collider = GetComponent<Collider2D> ();
 		startTime = Time.time;
+		highScore = PlayerPrefs.GetInt ("scorePref");
 	
 	}
 	
@@ -61,6 +65,14 @@ public class BunnyController : MonoBehaviour {
 			myAnim.SetFloat ("vVelocity", Mathf.Abs (myRigidBody.velocity.y));
 
 			scoreText.text = ((Time.time - startTime) * 10).ToString ("0");
+			score = (int) ((Time.time - startTime) * 10);
+			if (score > highScore) {
+				highScore = score;
+				PlayerPrefs.SetInt ("scorePref", highScore);
+			}
+			highScoreText.text = highScore.ToString ("0");
+			Debug.Log (score);
+			Debug.Log (highScore);
 		} 
 		else 
 		{
