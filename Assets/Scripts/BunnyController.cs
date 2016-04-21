@@ -8,15 +8,15 @@ public class BunnyController : MonoBehaviour {
 	private Rigidbody2D myRigidBody;
 	private Animator myAnim;
 	private Collider2D collider;
-	public float jumpForce = 500f;
+	private float startTime;
+	private int jumpsLeft = 2;
 	private int EnemyLayer;
 	private float bunnyHurtTime = -1;
 	public Text scoreText;
-	private float startTime;
-	private int jumpsLeft = 2;
 	public AudioSource jumpSfx;
 	public AudioSource deathSfx;
 	public AudioSource bGMusic;
+	public float jumpForce = 500f;
 
 
 
