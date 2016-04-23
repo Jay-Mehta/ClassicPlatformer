@@ -71,8 +71,6 @@ public class BunnyController : MonoBehaviour {
 				PlayerPrefs.SetInt ("scorePref", highScore);
 			}
 			highScoreText.text = highScore.ToString ("0");
-			Debug.Log (score);
-			Debug.Log (highScore);
 		} 
 		else 
 		{
