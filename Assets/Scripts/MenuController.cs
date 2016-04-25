@@ -19,6 +19,6 @@ public class MenuController : MonoBehaviour {
 
 	public void StartGame()
 	{
-		Application.LoadLevel ("Scene1");
+		Application.LoadLevel ("Level01");
 	}
 }

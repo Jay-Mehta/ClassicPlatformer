@@ -13,6 +13,7 @@ public class BunnyController_Tutorial : MonoBehaviour {
 	private int EnemyLayer;
 	private float bunnyHurtTime = -1;
 	private float someTime;
+	private int hurtCount = 0;
 	public AudioSource jumpSfx;
 	public AudioSource deathSfx;
 	public AudioSource bGMusic;
@@ -24,6 +25,10 @@ public class BunnyController_Tutorial : MonoBehaviour {
 	public bool hurtThirdText = false;
 	public GameObject jumpFirst;
 	public GameObject jumpSecond;
+	public GameObject CactusSpawner;
+	public GameObject dontHurt1;
+	public GameObject dontHurt2;
+	public GameObject dontHurt3;
 
 
 
@@ -56,26 +61,36 @@ public class BunnyController_Tutorial : MonoBehaviour {
 			jumpFirst.active = true;
 
 		}
-		if (((Input.GetButtonDown ("Jump")) || (Input.GetButtonDown ("Fire1"))) && jumpsLeft > 0) {
-			if (myRigidBody.velocity.y > 0) {
-				myRigidBody.velocity = Vector2.zero;
-				myRigidBody.AddForce (transform.up * jumpForce * 0.75f);
-			} else {
-				myRigidBody.velocity = Vector2.zero;
-				myRigidBody.AddForce (transform.up * jumpForce);
+		if (bunnyHurtTime == -1) {
+			if (((Input.GetButtonDown ("Jump")) || (Input.GetButtonDown ("Fire1"))) && jumpsLeft > 0) {
+				if (myRigidBody.velocity.y > 0) {
+					myRigidBody.velocity = Vector2.zero;
+					myRigidBody.AddForce (transform.up * jumpForce * 0.75f);
+				} else {
+					myRigidBody.velocity = Vector2.zero;
+					myRigidBody.AddForce (transform.up * jumpForce);
+				}
+				jumpFirst.active = false;
+				if (!jumpSecondText && jumpFirstText) {
+					jumpSecondText = true;
+					jumpSecond.active = true;
+					someTime = Time.time;
+				}
+				if (jumpSecond.active && (someTime + 2 < Time.time)) {
+					Debug.Log ("in 3");
+					jumpSecond.active = false;
+					CactusSpawner.active = true;
+				}
+				jumpsLeft--;
+				jumpSfx.Play ();
 			}
-			jumpFirst.active = false;
-			if (!jumpSecondText && jumpFirstText) {
-				jumpSecondText = true;
-				jumpSecond.active = true;
-				someTime = Time.time;
+		}
+		else 
+		{
+			if (Time.time > bunnyHurtTime + 4) 
+			{
+				Application.LoadLevel ("Level01");
 			}
-			if (jumpSecond.active && (someTime +2 < Time.time)) {
-				Debug.Log ("in 3");
-				jumpSecond.active = false;
-			}
-			jumpsLeft--;
-			jumpSfx.Play ();
 		}
 
 			
@@ -130,6 +145,12 @@ public class BunnyController_Tutorial : MonoBehaviour {
 
 			bunnyHurtTime = Time.time;
 			myAnim.SetBool ("bunnyHurt", true);
+			hurtCount++;
+			if (hurtCount == 1) {
+				dontHurt1.active = true;
+				hurtFirstText = true;
+			}
+				
 
 			myRigidBody.velocity = Vector2.zero;
 			myRigidBody.AddForce(transform.up * jumpForce);
