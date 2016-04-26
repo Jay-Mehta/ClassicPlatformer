@@ -77,7 +77,6 @@ public class BunnyController_Tutorial : MonoBehaviour {
 					someTime = Time.time;
 				}
 				if (jumpSecond.active && (someTime + 2 < Time.time)) {
-					Debug.Log ("in 3");
 					jumpSecond.active = false;
 					CactusSpawner.active = true;
 				}

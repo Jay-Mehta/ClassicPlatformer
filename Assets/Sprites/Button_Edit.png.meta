@@ -1,0 +1,926 @@
+fileFormatVersion: 2
+guid: 7a261602cc2ec684f8ffd07960243c90
+timeCreated: 1461679624
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Volume_Grey
+    21300002: Up
+    21300004: Empty_small
+    21300006: Down
+    21300008: Reset
+    21300010: Empty_Big
+    21300012: Button_Edit_6
+    21300014: Setting
+    21300016: Upload
+    21300018: Wrong
+    21300020: Play
+    21300022: Home
+    21300024: Download
+    21300026: Tick
+    21300028: Button_Edit_14
+    21300030: Information
+    21300032: Help
+    21300034: badge
+    21300036: Button_Edit_18
+    21300038: User
+    21300040: Button_Edit_20
+    21300042: Replay
+    21300044: Button_Edit_22
+    21300046: Button_Edit_23
+    21300048: Save
+    21300050: Facebook
+    21300052: Menu
+    21300054: Delete
+    21300056: Music
+    21300058: Twitter
+    21300060: Highscore
+    21300062: Marketplace
+    21300064: Volume
+    21300066: Google+
+    21300068: Pause
+    21300070: Button_Edit_35
+    21300072: Like
+    21300074: Share
+    21300076: Button_Edit_38
+    21300078: Add
+    21300080: Leaderboard
+    21300082: Button_Edit_41
+    21300084: Button_Edit_42
+    21300086: Remove
+    21300088: Mail
+    21300090: Button_Edit_45
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Volume_Grey
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5787
+        width: 464
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.154, y: 78.349}
+        - {x: -45.846, y: 78.349}
+        - {x: -67.846, y: 75.349}
+        - {x: -75.846, y: 60.349}
+        - {x: -75.846, y: -60.651}
+        - {x: -70.846, y: -77.651}
+        - {x: 77.154, y: -77.651}
+        - {x: 77.154, y: 45.349}
+        - {x: 64.154, y: 72.349}
+    - name: Up
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 5832
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.851013, y: 70.563965}
+        - {x: -66.85101, y: 68.563965}
+        - {x: -66.85101, y: -68.436035}
+        - {x: -61.851013, y: -70.436035}
+        - {x: 62.148987, y: -70.436035}
+        - {x: 68.14899, y: -66.436035}
+        - {x: 68.14899, y: 70.563965}
+    - name: Empty_small
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 5261
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.871, y: 70.846924}
+        - {x: -66.871, y: -70.153076}
+        - {x: 68.129, y: -70.153076}
+        - {x: 68.129, y: 70.846924}
+    - name: Down
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 5346
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.85101, y: 70.64197}
+        - {x: -66.85101, y: -66.35803}
+        - {x: -64.85101, y: -70.35803}
+        - {x: 68.14899, y: -70.35803}
+        - {x: 68.14899, y: 70.64197}
+    - name: Reset
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 5377
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.416016, y: 70.77893}
+        - {x: -66.416016, y: -57.22107}
+        - {x: -53.416016, y: -70.22107}
+        - {x: 67.583984, y: -70.22107}
+        - {x: 67.583984, y: 70.77893}
+    - name: Empty_Big
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4568
+        width: 954
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 157.166, y: 31.235962}
+        - {x: 151.166, y: 59.235962}
+        - {x: 137.166, y: 70.23596}
+        - {x: 118.166, y: 71.23596}
+        - {x: -122.834, y: 71.23596}
+        - {x: -144.834, y: 69.23596}
+        - {x: -155.834, y: 54.235962}
+        - {x: -155.834, y: -47.764038}
+        - {x: -142.834, y: -67.76404}
+        - {x: -133.834, y: -69.76404}
+        - {x: 141.166, y: -69.76404}
+        - {x: 156.166, y: -56.764038}
+        - {x: 157.166, y: -45.764038}
+    - name: Button_Edit_6
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 4860
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.85101, y: 70.71997}
+        - {x: -66.85101, y: -70.28003}
+        - {x: 65.14899, y: -70.28003}
+        - {x: 68.14899, y: -69.28003}
+        - {x: 68.14899, y: 70.71997}
+    - name: Setting
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4891
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.416016, y: 70.85693}
+        - {x: -66.416016, y: 68.85693}
+        - {x: -66.416016, y: -70.14307}
+        - {x: 67.583984, y: -70.14307}
+        - {x: 67.583984, y: 66.85693}
+        - {x: 54.583984, y: 70.85693}
+    - name: Upload
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 4374
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.85101, y: 70.79797}
+        - {x: -66.85101, y: -70.20203}
+        - {x: 68.14899, y: -70.20203}
+        - {x: 68.14899, y: 70.79797}
+    - name: Wrong
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 4405
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.416016, y: 70.93494}
+        - {x: -66.416016, y: 56.934937}
+        - {x: -66.416016, y: -58.065063}
+        - {x: -63.416016, y: -70.06506}
+        - {x: 61.583984, y: -70.06506}
+        - {x: 67.583984, y: -68.06506}
+        - {x: 67.583984, y: 62.934937}
+        - {x: 66.583984, y: 70.93494}
+    - name: Play
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3915
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.846, y: 70.704956}
+        - {x: -66.846, y: -68.295044}
+        - {x: -62.846, y: -70.295044}
+        - {x: 64.154, y: -70.295044}
+        - {x: 68.154, y: -66.295044}
+        - {x: 68.154, y: 50.704956}
+        - {x: 63.154, y: 70.704956}
+    - name: Home
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 3903
+        width: 406
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.43802, y: 70.781006}
+        - {x: -66.43802, y: 56.781006}
+        - {x: -66.43802, y: -62.218994}
+        - {x: -53.43802, y: -70.218994}
+        - {x: 66.56198, y: -70.218994}
+        - {x: 67.56198, y: -64.218994}
+        - {x: 67.56198, y: 61.781006}
+        - {x: 52.56198, y: 70.781006}
+    - name: Download
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 3888
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.85101, y: 70.87598}
+        - {x: -66.85101, y: -37.124023}
+        - {x: -65.85101, y: -51.124023}
+        - {x: -59.851013, y: -70.12402}
+        - {x: 65.14899, y: -70.12402}
+        - {x: 68.14899, y: -60.124023}
+        - {x: 68.14899, y: 70.87598}
+    - name: Tick
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 3918
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.416016, y: 70.68591}
+        - {x: -66.416016, y: 67.68591}
+        - {x: -66.416016, y: -68.31409}
+        - {x: -61.416016, y: -70.31409}
+        - {x: 60.583984, y: -70.31409}
+        - {x: 67.583984, y: -65.31409}
+        - {x: 67.583984, y: 53.685913}
+        - {x: 63.583984, y: 70.68591}
+    - name: Button_Edit_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3429
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.154, y: 70.78296}
+        - {x: -53.846, y: 70.78296}
+        - {x: -66.846, y: 66.78296}
+        - {x: -66.846, y: -56.21704}
+        - {x: -57.846, y: -70.21704}
+        - {x: 68.154, y: -70.21704}
+        - {x: 68.154, y: 54.78296}
+        - {x: 64.154, y: 60.78296}
+    - name: Information
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 3417
+        width: 406
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.43802, y: 70.85901}
+        - {x: -66.43802, y: 66.85901}
+        - {x: -66.43802, y: -69.14099}
+        - {x: -58.43802, y: -70.14099}
+        - {x: 61.56198, y: -70.14099}
+        - {x: 67.56198, y: -63.14099}
+        - {x: 67.56198, y: 66.85901}
+        - {x: 50.56198, y: 70.85901}
+    - name: Help
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 3402
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.851013, y: 70.95398}
+        - {x: -66.85101, y: 63.95398}
+        - {x: -66.85101, y: -56.04602}
+        - {x: -59.851013, y: -70.04602}
+        - {x: 63.148987, y: -70.04602}
+        - {x: 68.14899, y: -66.04602}
+        - {x: 68.14899, y: 70.95398}
+    - name: badge
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 3432
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.416016, y: 70.763916}
+        - {x: -66.416016, y: -70.236084}
+        - {x: 63.583984, y: -70.236084}
+        - {x: 67.583984, y: -62.236084}
+        - {x: 67.583984, y: 53.763916}
+        - {x: 65.583984, y: 70.763916}
+    - name: Button_Edit_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2943
+        width: 409
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.846, y: 70.36096}
+        - {x: -66.846, y: -69.63904}
+        - {x: 58.154, y: -69.63904}
+        - {x: 68.154, y: -51.639038}
+        - {x: 68.154, y: 70.36096}
+    - name: User
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2931
+        width: 406
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.43802, y: 70.93695}
+        - {x: -66.43802, y: -64.06305}
+        - {x: -62.43802, y: -70.06305}
+        - {x: 67.56198, y: -70.06305}
+        - {x: 67.56198, y: 62.93695}
+        - {x: 64.56198, y: 70.93695}
+    - name: Button_Edit_20
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 2916
+        width: 409
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.851013, y: 71.03198}
+        - {x: -56.851013, y: 67.03198}
+        - {x: -66.85101, y: 54.031982}
+        - {x: -66.85101, y: -54.968018}
+        - {x: -65.85101, y: -65.96802}
+        - {x: -53.851013, y: -69.96802}
+        - {x: 68.14899, y: -69.96802}
+        - {x: 68.14899, y: 68.03198}
+        - {x: 50.148987, y: 71.03198}
+    - name: Replay
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2946
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.416016, y: 70.84198}
+        - {x: -66.416016, y: 68.84198}
+        - {x: -66.416016, y: -54.15802}
+        - {x: -53.416016, y: -70.15802}
+        - {x: 59.583984, y: -70.15802}
+        - {x: 67.583984, y: -64.15802}
+        - {x: 67.583984, y: 63.84198}
+        - {x: 40.583984, y: 70.84198}
+    - name: Button_Edit_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2457
+        width: 409
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.846, y: 70.438965}
+        - {x: -66.846, y: 60.438965}
+        - {x: -66.846, y: -66.561035}
+        - {x: -65.846, y: -69.561035}
+        - {x: 68.154, y: -69.561035}
+        - {x: 68.154, y: 54.438965}
+        - {x: 57.154, y: 70.438965}
+    - name: Button_Edit_23
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2445
+        width: 406
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.43802, y: 71.01495}
+        - {x: -66.43802, y: -61.985046}
+        - {x: -56.43802, y: -69.98505}
+        - {x: 57.56198, y: -69.98505}
+        - {x: 67.56198, y: -68.98505}
+        - {x: 67.56198, y: 56.014954}
+        - {x: 60.56198, y: 71.01495}
+    - name: Save
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 2429
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.851013, y: 70.78296}
+        - {x: -66.85101, y: 66.78296}
+        - {x: -66.85101, y: -62.21704}
+        - {x: -62.851013, y: -70.21704}
+        - {x: 68.14899, y: -70.21704}
+        - {x: 68.14899, y: 68.78296}
+        - {x: 61.148987, y: 70.78296}
+    - name: Facebook
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2460
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.416016, y: 70.91998}
+        - {x: -66.416016, y: -62.080017}
+        - {x: -55.416016, y: -70.08002}
+        - {x: 65.583984, y: -70.08002}
+        - {x: 67.583984, y: -63.080017}
+        - {x: 67.583984, y: 53.919983}
+        - {x: 55.583984, y: 70.91998}
+    - name: Menu
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1971
+        width: 409
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.846, y: 70.51697}
+        - {x: -66.846, y: -61.483032}
+        - {x: -57.846, y: -69.48303}
+        - {x: 64.154, y: -69.48303}
+        - {x: 68.154, y: -57.483032}
+        - {x: 68.154, y: 59.516968}
+        - {x: 60.154, y: 70.51697}
+    - name: Delete
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1968
+        width: 406
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.43802, y: 69.03601}
+        - {x: -66.43802, y: 60.03601}
+        - {x: -66.43802, y: -57.96399}
+        - {x: -55.43802, y: -69.96399}
+        - {x: 64.56198, y: -69.96399}
+        - {x: 67.56198, y: -58.96399}
+        - {x: 67.56198, y: 61.03601}
+        - {x: 63.56198, y: 69.03601}
+    - name: Music
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1943
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.851013, y: 70.86096}
+        - {x: -66.85101, y: 65.86096}
+        - {x: -66.85101, y: -54.139038}
+        - {x: -64.85101, y: -70.13904}
+        - {x: 63.148987, y: -70.13904}
+        - {x: 68.14899, y: -52.139038}
+        - {x: 68.14899, y: 51.860962}
+        - {x: 59.148987, y: 70.86096}
+    - name: Twitter
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1974
+        width: 408
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.416016, y: 70.497986}
+        - {x: -66.416016, y: 64.497986}
+        - {x: -66.416016, y: -63.502014}
+        - {x: -65.416016, y: -69.502014}
+        - {x: 67.583984, y: -69.502014}
+        - {x: 67.583984, y: 62.497986}
+        - {x: 49.583984, y: 70.497986}
+    - name: Highscore
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1485
+        width: 409
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.846, y: 70.595}
+        - {x: -66.846, y: -69.405}
+        - {x: 68.154, y: -69.405}
+        - {x: 68.154, y: 70.595}
+    - name: Marketplace
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1472
+        width: 406
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.43802, y: 70.843994}
+        - {x: -66.43802, y: 64.843994}
+        - {x: -66.43802, y: -70.156006}
+        - {x: 65.56198, y: -70.156006}
+        - {x: 67.56198, y: -67.156006}
+        - {x: 67.56198, y: 67.843994}
+        - {x: 60.56198, y: 70.843994}
+    - name: Volume
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1457
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.851013, y: 70.938995}
+        - {x: -66.85101, y: 60.938995}
+        - {x: -66.85101, y: -70.061005}
+        - {x: 68.14899, y: -70.061005}
+        - {x: 68.14899, y: 68.938995}
+        - {x: 50.148987, y: 70.938995}
+    - name: Google+
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1488
+        width: 408
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.416016, y: 70.57599}
+        - {x: -66.416016, y: 67.57599}
+        - {x: -66.416016, y: -69.42401}
+        - {x: 67.583984, y: -69.42401}
+        - {x: 67.583984, y: 67.57599}
+        - {x: 63.583984, y: 70.57599}
+    - name: Pause
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 998
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.846, y: 70.84598}
+        - {x: -66.846, y: 58.845978}
+        - {x: -66.846, y: -59.154022}
+        - {x: -65.846, y: -70.15402}
+        - {x: 66.154, y: -70.15402}
+        - {x: 68.154, y: -58.154022}
+        - {x: 68.154, y: 46.845978}
+        - {x: 53.154, y: 70.84598}
+    - name: Button_Edit_35
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 986
+        width: 406
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.43802, y: 70.922}
+        - {x: -66.43802, y: -70.078}
+        - {x: 67.56198, y: -70.078}
+        - {x: 67.56198, y: 70.922}
+    - name: Like
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 971
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.851013, y: 71.017}
+        - {x: -66.85101, y: 63.017}
+        - {x: -66.85101, y: -69.983}
+        - {x: 64.14899, y: -69.983}
+        - {x: 68.14899, y: -67.983}
+        - {x: 68.14899, y: 71.017}
+    - name: Share
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1001
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.416016, y: 70.826996}
+        - {x: -66.416016, y: -68.173004}
+        - {x: -62.416016, y: -70.173004}
+        - {x: 66.583984, y: -70.173004}
+        - {x: 67.583984, y: -67.173004}
+        - {x: 67.583984, y: 64.826996}
+        - {x: 55.583984, y: 70.826996}
+    - name: Button_Edit_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 409
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.846, y: 70.423996}
+        - {x: -66.846, y: 60.423996}
+        - {x: -66.846, y: -59.576004}
+        - {x: -48.846, y: -69.576004}
+        - {x: 66.154, y: -69.576004}
+        - {x: 68.154, y: -61.576004}
+        - {x: 68.154, y: 53.423996}
+        - {x: 58.154, y: 70.423996}
+    - name: Add
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 500
+        width: 406
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.43802, y: 71}
+        - {x: -66.43802, y: 61}
+        - {x: -66.43802, y: -61}
+        - {x: -57.43802, y: -70}
+        - {x: 55.56198, y: -70}
+        - {x: 67.56198, y: -57}
+        - {x: 67.56198, y: 58}
+        - {x: 48.56198, y: 71}
+    - name: Leaderboard
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 488
+        width: 409
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.851013, y: 71.07599}
+        - {x: -66.85101, y: 65.07599}
+        - {x: -66.85101, y: -68.92401}
+        - {x: -63.851013, y: -69.92401}
+        - {x: 57.148987, y: -69.92401}
+        - {x: 68.14899, y: -59.92401}
+        - {x: 68.14899, y: 67.07599}
+        - {x: 55.148987, y: 71.07599}
+    - name: Button_Edit_41
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 515
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.416016, y: 70.905}
+        - {x: -66.416016, y: 63.905}
+        - {x: -66.416016, y: -59.095}
+        - {x: -63.416016, y: -70.095}
+        - {x: 67.583984, y: -70.095}
+        - {x: 67.583984, y: 66.905}
+        - {x: 56.583984, y: 70.905}
+    - name: Button_Edit_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 24
+        width: 409
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.846, y: 71.348}
+        - {x: -66.846, y: -69.652}
+        - {x: 68.154, y: -69.652}
+        - {x: 68.154, y: 62.348}
+        - {x: 66.154, y: 71.348}
+    - name: Remove
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 14
+        width: 406
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.43802, y: 71.078}
+        - {x: -66.43802, y: 63.078003}
+        - {x: -66.43802, y: -49.921997}
+        - {x: -59.43802, y: -69.922}
+        - {x: 67.56198, y: -69.922}
+        - {x: 67.56198, y: 71.078}
+    - name: Mail
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 0
+        width: 409
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.851013, y: 70}
+        - {x: -66.85101, y: 67}
+        - {x: -66.85101, y: -68}
+        - {x: -59.851013, y: -70}
+        - {x: 64.14899, y: -70}
+        - {x: 68.14899, y: -61}
+        - {x: 68.14899, y: 46}
+        - {x: 62.148987, y: 70}
+    - name: Button_Edit_45
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 32
+        width: 408
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.416016, y: 70.964}
+        - {x: -66.416016, y: 61.963997}
+        - {x: -66.416016, y: -59.036003}
+        - {x: -53.416016, y: -70.036}
+        - {x: 61.583984, y: -70.036}
+        - {x: 67.583984, y: -66.036}
+        - {x: 67.583984, y: 58.963997}
+        - {x: 64.583984, y: 70.964}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
