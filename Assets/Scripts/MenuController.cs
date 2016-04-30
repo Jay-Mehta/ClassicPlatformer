@@ -4,20 +4,19 @@ using UnityEngine.UI;
 
 public class MenuController : MonoBehaviour {
 
-	public Text button;
-	private string buttonText;
+	private string startPlace;
 	public int firstTime = 1;
+	private int highScore ;
 
 	// Use this for initialization
 	void Start () {
 		firstTime = PlayerPrefs.GetInt ("firstTimePref");
 		if (firstTime == 0) {
-			buttonText = "Start";
+			startPlace = "Start";
 		} else {
 			firstTime = 0;
 			PlayerPrefs.SetInt ("firstTimePref", firstTime);
-			buttonText = "Tutorial";
-			Debug.Log ("buttonText");
+			startPlace = "Tutorial";
 		}
 	
 	}
@@ -33,10 +32,25 @@ public class MenuController : MonoBehaviour {
 
 	public void StartGame()
 	{
-		if (buttonText == "Start") {
+		if (startPlace == "Start") {
 			Application.LoadLevel ("Level01");
 		} else {
 			Application.LoadLevel ("Tutorial");
 		}
+	}
+
+	public void StartTutorial()
+	{
+		Application.LoadLevel ("Tutorial");
+	}
+
+	public void Reset()
+	{
+		PlayerPrefs.DeleteAll ();
+		highScore = PlayerPrefs.GetInt ("scorePref");
+		firstTime = 1;
+		PlayerPrefs.SetInt ("firstTimePref", firstTime);
+		Application.LoadLevel (Application.loadedLevel);
+
 	}
 }

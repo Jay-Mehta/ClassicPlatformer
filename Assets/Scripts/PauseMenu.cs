@@ -5,29 +5,34 @@ public class PauseMenu : MonoBehaviour {
 
 	public GameObject pausedUI;
 	public bool paused = false;
-	private float someTime;
+	private float someTime = 0;
 
 	void Start(){
 		pausedUI.active = false;
 	}
 
 	void Update () {
-		if (Input.GetKey (KeyCode.Escape))
-		{
-			paused = !paused;
-		}
 
+		if (Input.GetKey (KeyCode.Escape)) {
+			if (someTime < Time.unscaledTime) {
+				someTime = Time.unscaledTime + 1;
+				paused = !paused;
+			}
+		}
 		if (paused)
 		{
 			pausedUI.active = true;
 			Time.timeScale = 0f;
 		}
+
 		if (!paused)
 		{
 			pausedUI.active = false;
 			//WaitForSeconds (0.5f);
 			Time.timeScale = 1;
 		}
+
+
 
 	}
 	public void Pause ()
